@@ -16,10 +16,11 @@ namespace WebAPI.Controllers
     {
         private readonly MeuContexto _context;
 
-        public CadastroesController(MeuContexto context)
+      #region  public CadastroesController(MeuContexto context)
         {
             _context = context;
         }
+        #endregion
 
         #region GET Methods
 
