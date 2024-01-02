@@ -13,5 +13,6 @@ namespace WebAPI.Models
 
         [EmailAddress]
         public string Email { get; set; }
+
     }
 }
