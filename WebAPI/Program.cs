@@ -2,7 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Win32;
 using WebAPI.Data;
 
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+
 
 
 // Adicionar os serviços
@@ -10,10 +16,14 @@ builder.Services.AddControllers(); /*Registra os controladores que você vai cria
 /*Abaixo colocar*/
 
 
+
+
 ////aqui codigo que nao tenho que decorar
 builder.Services.AddDbContext<MeuContexto>(options => /*configura o contexto do Entity Framework Core para interagir com o banco de dados.*/
 options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoAzureSQL"))); /*configura o contexto do Entity Framework Core para interagir com o banco de dados.*/
 ////aqui codigo que nao tenho que decorar
+
+
 
 
 // Swagger//
