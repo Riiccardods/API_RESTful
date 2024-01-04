@@ -10,6 +10,7 @@ namespace WebAPI.Data
         public MeuContexto(DbContextOptions<MeuContexto> options) : base(options)
         {
 
+
         }
         
     }
