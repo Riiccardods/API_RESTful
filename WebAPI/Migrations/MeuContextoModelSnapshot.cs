@@ -38,7 +38,9 @@ namespace WebAPI.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+
                     b.HasKey("Id");
+
 
                     b.ToTable("Cadastros");
                 });
