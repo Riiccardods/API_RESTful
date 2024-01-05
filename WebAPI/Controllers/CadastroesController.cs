@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class CadastroesController : ControllerBase
     {
-        private readonly MeuContexto _context;
+        private readonly MeuContexto context;
 
       #region  public CadastroesController(MeuContexto context)
         {
