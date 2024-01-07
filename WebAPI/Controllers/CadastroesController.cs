@@ -12,6 +12,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class CadastroesController : ControllerBase
     {
         private readonly MeuContexto context;
