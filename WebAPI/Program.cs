@@ -11,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
+
+
 // Adicionar os serviços
 builder.Services.AddControllers(); /*Registra os controladores que você vai criar para manipular as requisições HTTP*/
 /*Abaixo colocar*/
