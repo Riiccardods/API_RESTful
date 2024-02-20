@@ -28,6 +28,8 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoAzureSQL"
 
 
 
+
+
 // Swagger//
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
